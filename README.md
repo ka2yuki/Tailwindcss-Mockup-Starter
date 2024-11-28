@@ -1,2 +1,3 @@
 # myStarter_mockupSite
-mock up Starter. .gitignore teplete: wordpress from github
+mock up Starter.   
+- .gitignore teplete: choose `wordpress` from github templete.
