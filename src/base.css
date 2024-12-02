@@ -3,9 +3,12 @@
     --blue: #67e8f9;
 }
 
+
 body {
-    /* background-color: var(--blue); */
+    /* font-size: 16px;
+    line-height: 1; */
 }
+
 h1 {
     /* color: var(--blue); */
 }
