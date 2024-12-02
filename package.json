@@ -1,0 +1,9 @@
+{
+  "name": "tailwindcss starter",
+  "scripts": {
+    "start": "npx tailwindcss -i ./lib/tailwindcss.css -o ./lib/tailwindcss-output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.15"
+  }
+}

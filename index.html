@@ -4,36 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mock Starter</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            content: ['./src/**/*.{html,js}'],
-            prefix: 'tw-',
-            theme: {
-                extend: {
-                    colors: {
-                        clifford: '#da373d',
-                        'blue': '#1fb6ff',
-                        'purple': '#7e5bef',
-                        'pink': '#ff49db',
-                        'orange': '#ff7849',
-                        'green': '#13ce66',
-                        'yellow': '#ffc82c',
-                        'gray-dark': '#273444',
-                        'gray': '#8492a6',
-                        'gray-light': '#d3dce6',
-                    }
-                }
-            },
-        }
-    </script>
+    <title>Tailwindcss mockup starter</title>
+    <!-- librarys -->
+    <link rel="stylesheet" href="lib/tailwindcss-output.css">
+    <!-- your original file. -->
+    <link rel="stylesheet" href="src/base.css">
+    <link rel="stylesheet" href="src/ファイル名を変更して編集くださいませ.css">
 </head>
 
-<body>
-    <h1 class="text-3xl font-bold underline text-clifford">
-        Hello world!
+<body class="flex justify-center items-center h-screen flex-col text-lg text-sky-500">
+    <h1>
+        Tailwindcss mockup starter
     </h1>
+    <p class="text-xs underline text-slate-700">
+        <a href="https://tailwindcss.com/docs/container">docs</a>
+    </p>
 </body>
 
 </html>

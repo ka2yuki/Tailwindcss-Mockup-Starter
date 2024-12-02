@@ -1,0 +1,15 @@
+:root {
+    --main: rgb(14 165 233/ 1);
+    --blue: #67e8f9;
+}
+
+body {
+    /* background-color: var(--blue); */
+}
+h1 {
+    /* color: var(--blue); */
+}
+
+p {
+    /* color: var(--blue); */
+}
