@@ -1,8 +1,8 @@
 {
   "name": "tailwindcss starter",
   "scripts": {
-    "start": "npx tailwindcss -i ./lib/tailwindcss.css -o ./lib/tailwindcss-output.css --watch",
-    "minify": "npx tailwindcss -i ./lib/tailwindcss.css -o ./lib/tailwindcss-output.css --minify"
+    "start": "npx tailwindcss -i ./tailwindcss.css -o ./assets/tailwindcss-lib.css --watch",
+    "minify": "npx tailwindcss -i ./tailwindcss.css -o ./assets/tailwindcss-lib.css --minify"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.15"
